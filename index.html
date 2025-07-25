@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Generated MCQ</title> <!-- UPDATED NAME -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+
+<body>
+    <header id="app-header">
+        <div class="header-content">
+            <h1>AI Generated MCQ</h1> <!-- UPDATED NAME -->
+            <nav id="main-nav">
+                <!-- Navigation will be dynamically generated here -->
+            </nav>
+        </div>
+    </header>
+
+    <main id="quiz-container">
+        <!-- AI Disclaimer - Initially hidden -->
+        <div id="ai-disclaimer" style="display: none;">
+            <i class="fas fa-exclamation-triangle"></i>
+            <div>
+                <strong>Important Note:</strong> This content is generated with the help of AI and is for training
+                purposes only. There may be inaccuracies. Please verify critical information and use the "Report" button
+                for any errors you find.
+            </div>
+        </div>
+
+        <!-- COMPLETELY NEW WELCOME MESSAGE -->
+        <div id="welcome-message">
+            <div class="welcome-card">
+                <h2>Welcome to Coursework AI!</h2>
+                <p>Your AI-powered platform for quiz-based learning.</p>
+
+                <h3><i class="fas fa-rocket"></i> How to Get Started</h3>
+                <ol>
+                    <li>Use the navigation buttons (e.g., "Year 3") in the header to open a course menu.</li>
+                    <li>Select a course from the dropdown to load the quiz.</li>
+                    <li>Answer a question to instantly see the correct solution and a detailed explanation.</li>
+                </ol>
+
+                <h3><i class="fas fa-tools"></i> Key Features</h3>
+                <ul>
+                    <li><strong>Instant Feedback:</strong> See explanations immediately after answering.</li>
+                    <li><strong>Retest Your Knowledge:</strong> Use the <i class="fas fa-trash"></i> "Clear Answers"
+                        button to reset a quiz and try again.</li>
+                    <li><strong>Found an Error?</strong> Click the <i class="fas fa-flag"></i> "Report" button next to
+                        any question to help us improve the content.</li>
+                </ul>
+
+                <div class="welcome-disclaimer">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Please Read Carefully</h3>
+                    <p>
+                        This is an unofficial, community-driven project (v1.0 Beta) and is not affiliated with any
+                        university. The content is AI-assisted and may contain errors or inaccuracies. <strong>Always
+                            prioritize official course materials and lectures.</strong>
+                    </p>
+                    <p>
+                        By using this website, you acknowledge that you are doing so at your own risk and
+                        responsibility. The project is open-source on GitHub—your contributions and feedback are
+                        welcome!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Quiz content will be rendered here -->
+    </main>
+
+    <footer id="app-footer">
+        <p>
+            <strong>Disclaimer:</strong> Content is AI-assisted. Please use it carefully and responsibly. © 2025
+            <a href="https://t.me/Crsitography" target="_blank" rel="noopener noreferrer">Crist Yaghjian</a>.
+        </p>
+    </footer>
+
+    <script src="structure.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
