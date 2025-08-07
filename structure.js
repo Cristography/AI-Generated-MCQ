@@ -23,7 +23,8 @@ const universityStructure = {
         ],
         "Semester 2": [
             { name: "شبكات", file: "data/year3/semester2/networks.json" },
-            { name: "هندسة برمجيات 1", file: "data/year3/semester2/softwareengineering1.json" }
+            { name: "هندسة برمجيات 1", file: "data/year3/semester2/softwareengineering1.json" },
+            { name: "خوارزميات 3", file: "data/year3/semester2/algorithms3.json" }
         ]
     },
     "Year 4": {
