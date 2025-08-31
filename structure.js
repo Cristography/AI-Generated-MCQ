@@ -26,8 +26,10 @@ const universityStructure = {
             { name: "هندسة برمجيات 1", file: "data/year3/semester2/softwareengineering1.json" },
             { name: "خوارزميات 3", file: "data/year3/semester2/algorithms3.json" },
             { name: "لغات صورية", file: "data/year3/semester2/formallanguages.json" },
-            { name: "بنية وتنظيم الحاسب 1", file: "data/year3/semester2/computerarch1.json" }
+            { name: "بنية وتنظيم الحاسب 1", file: "data/year3/semester2/computerarch1.json" },
+            { name: "مبادئ الذكاء الصنعي", file: "data/year3/semester2/ai.json" }
         ]
+
     },
     "Year 4": {
         "Semester 1": [
@@ -46,4 +48,3 @@ const universityStructure = {
         ]
     },
 };
-
